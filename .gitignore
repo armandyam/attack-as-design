@@ -1,0 +1,23 @@
+# LaTeX intermediates. The compiled paper/paper.pdf and the externalized figure
+# PDFs in paper/tikz-figures/ are tracked deliberately.
+paper/*.aux
+paper/*.auxlock
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/tikz-figures/*.log
+paper/tikz-figures/*.md5
+paper/tikz-figures/*.dpth
+
+# Large re-derivable embedding matrices (regenerate with code/embed_*.py)
+X_*.npy
+DMS_substitutions.parquet
+
+# Python / OS cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
