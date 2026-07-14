@@ -20,6 +20,7 @@ DMS_substitutions.parquet
 # internal submission planning must never be committed.
 stanford_reviewer/
 REVIEW_RESPONSE_PLAN.md
+SUBMISSION_PLAN.md
 reviews/
 *_review*.pdf
 
