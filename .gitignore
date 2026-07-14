@@ -16,6 +16,13 @@ paper/tikz-figures/*.dpth
 X_*.npy
 DMS_substitutions.parquet
 
+# Private working material. This repo is PUBLIC: reviewer feedback and our
+# internal submission planning must never be committed.
+stanford_reviewer/
+REVIEW_RESPONSE_PLAN.md
+reviews/
+*_review*.pdf
+
 # Python / OS cruft
 __pycache__/
 *.pyc
